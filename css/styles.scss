@@ -3,7 +3,8 @@ $background-dark: #512DA8;
 $background-light: #9575CD;
 $background-pale: #D1C4E9;
 
-$carousel-item-height:30px;
+$carousel-item-height:300px;
+
 
 @mixin zero-margin($pad-up-down,$pad-left-right) {
     margin: 0px auto;
@@ -13,7 +14,7 @@ $carousel-item-height:30px;
     @include zero-margin(0px, 0px)
 }
 .row-content{
-    @include zero-margin(50px, -0px);
+    @include zero-margin(50px, 0px);
     border-bottom: 1px ridge;
     min-height: 400px;
 }
